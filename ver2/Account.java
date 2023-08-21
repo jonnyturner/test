@@ -53,7 +53,7 @@ public class Account {
 		String msg = "name=" + name + ", balance=$" + balance;		
 		return msg;
 	}
-
+	// New Comment
 	// Informal test code
 	public static void main(String[] args) {
 		Account a1 = new Account(1000.0);
