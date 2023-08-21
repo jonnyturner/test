@@ -5,10 +5,7 @@ public class Account {
 	private double balance;
 	private String name;
 	
-	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
+	
 	
 	public Account(String name, double balance) {
 		this.name = name;
@@ -53,7 +50,7 @@ public class Account {
 		String msg = "name=" + name + ", balance=$" + balance;		
 		return msg;
 	}
-	// New Comment
+	// New Comment for balance
 	// Informal test code
 	public static void main(String[] args) {
 		Account a1 = new Account(1000.0);
